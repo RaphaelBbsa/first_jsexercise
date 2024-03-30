@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* o vh significa viewport, ou seja, estou usando ele como parâmetro para definir a altura */
+    
+}
+
+.container {
+    width: 400px ;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #398326 ;
+    border-radius: 8px ;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2); /* o primeiro define a distância horizontal p direita, o segundo a vertical, o terceiro o desfoque da sombra e o rgba a cor e transparência da sombra */
+}
+
+form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+input, button {
+    margin-bottom: 30px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #080808;
+    padding: 15px;
+    margin-top: 8px;
+}
+
+button {
+    margin-top: 60px;
+    padding: 15px 30px;
+    background-color: #54a540;
+    font-size: 30px;
+}
+ button:hover {
+    background-color: #255519;
+ }
+
