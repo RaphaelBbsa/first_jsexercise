@@ -52,3 +52,15 @@ button {
     background-color: #255519;
  }
 
+ .sucess-message {
+    display: none;
+    color: #fff;
+    background-color: #255519;
+ }
+
+ .error-message {
+    display: none;
+    color: #fff;
+    background-color: red;
+ }
+
